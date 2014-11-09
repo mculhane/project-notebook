@@ -47,8 +47,9 @@ team, how did you share the labor?**
 * 1 hour
   * Looked into feasibility of Sublime Text plugins and played around with a
     Hello World example.
-* 1 hour
-  * Team meeting, discussed IR/plugin/syntax in more detail.
+* 1.25 hours
+  * Team meeting, discussed IR/plugin/syntax in more detail. Thought about the
+    semantics of due/start dates with recurrences and dependencies.
 
 
 ## Post-critique summary
