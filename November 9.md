@@ -36,8 +36,36 @@ we will discuss our progress and shuffle tasks as appropriate.
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+I think the most pressing issue for our project is the intermediate
+representation, mostly because it directly impacts both the syntax and the
+semantics (which could otherwise be developed separately). In particular,
+we are spending a lot of time thinking about how we could model both
+recurrences and dependencies (and, as more of a challenge, dependencies
+between recurring tasks). This question will directly inform how we
+structure tasks and the sorts of data structures we use to model them, so it
+is imperative that we get a (hopefully good) solution soon.
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+Because I focused on the Sublime component of our project this week, I'll focus
+my questions on that topic.
+
+Does a Sublime plugin make sense and/or sound useful as a way of managing tasks?
+(Clearly, a Sublime plugin would limit our target audience to people who
+actually use a text editor like Sublime Text.) Also, what level of detail would
+make sense for a Sublime plugin?
+
+Should a Sublime Text plugin look like set of tools and syntax to
+improve the experience of natively writing in our language, or should it
+provide a more sophisticated interface that hides the underlying language and
+instead only uses it as a database for loading/storing tasks? There are pros
+and cons to the two approaches. The first highlights and showcases our language,
+while the second introduces a more robust and complete user experience. We may
+need/want a combination of these approaches, perhaps writing natively in our
+DSL to create/modify tasks, but then also providing useful aggregations of that
+data (such as tasks due in the next 2 days or tasks that are not "blocked" by
+dependencies or future start dates).
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
@@ -50,6 +78,9 @@ team, how did you share the labor?**
 * 1.25 hours
   * Team meeting, discussed IR/plugin/syntax in more detail. Thought about the
     semantics of due/start dates with recurrences and dependencies.
+* 2 hours
+  * Played around more with Sublime Text plugins and focused on how they
+    can create/modify settings and menu items
 
 
 ## Post-critique summary
