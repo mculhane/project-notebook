@@ -87,6 +87,8 @@ The times listed below do _not_ include time spent working on the project in cla
     can create/modify settings and menu items.
 * 0.75 hours
   * Worked on project notebook and created critique summary.
+* 1.5 hours
+  * Spent a while looking at Scala vs. Python as a suitable host language. A summary of conclusions/musings is [here](https://github.com/mculhane/project/wiki/Host-Language-Thoughts).
 
 
 ## Post-critique summary
