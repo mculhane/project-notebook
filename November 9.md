@@ -72,6 +72,8 @@ team, how did you share the labor?**
 
 The times listed below do _not_ include time spent working on the project in class.
 
+* 1.5 hours
+  * Critique of Philip's project (and learning a _lot_ about flavors of Markdown).
 * 1 hour
   * Team meeting, decided to work with todo.txt and create a Sublime plugin.
 * 1 hour
@@ -82,9 +84,9 @@ The times listed below do _not_ include time spent working on the project in cla
     semantics of due/start dates with recurrences and dependencies.
 * 2 hours
   * Played around more with Sublime Text plugins and focused on how they
-    can create/modify settings and menu items
+    can create/modify settings and menu items.
 * 0.75 hours
-  * Worked on project notebook and 
+  * Worked on project notebook and created critique summary.
 
 
 ## Post-critique summary
