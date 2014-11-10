@@ -70,6 +70,8 @@ dependencies or future start dates).
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
 
+The times listed below do _not_ include time spent working on the project in class.
+
 * 1 hour
   * Team meeting, decided to work with todo.txt and create a Sublime plugin.
 * 1 hour
@@ -81,8 +83,46 @@ team, how did you share the labor?**
 * 2 hours
   * Played around more with Sublime Text plugins and focused on how they
     can create/modify settings and menu items
+* 0.75 hours
+  * Worked on project notebook and 
 
 
 ## Post-critique summary
 
+Note: This is a summary of Nick's critique of our original language, which was
+a language for modeling dependencies. Our project has since merged with his and
+changed focus quite a bit.
+
+Nick's critique focused on a few things. He mentioned that the majority of the
+work likely lies in the language design. He also mentioned that it may be wise
+to build on top of todo.txt. Nick also hit on a very important point about
+dependencies, which is that it's absolutely imperative to strike a balance
+between something so simple that it's not useful and something so complicated
+that the upfront effort outweighs any benefits that the language provides.
+
 ## Post-critique reflection
+
+We have changed our project's focus substantially since the critique, so much of
+Nick's initial critique is less relevant. However, there are definitely some
+important points we can learn from.
+
+First, Nick's comments about striking a balance between simplicity and utility is
+still very important, and it's something we'll have to keep in mind. Even if we
+can build a ton of cool functionality around very detailed and parameterized tasks,
+those features will not be useful if the time they save is less than the time
+invested in setting up the tasks.
+
+Next, Nick commented/suggested that the majority of the project focus on the
+language design (syntax and IR). I think this is still a useful point to consider.
+The biggest challenges of our project seem to be in coming up with a clear and
+logical way to represent dependencies, recurrences, and their interactions, so it
+makes sense that we would focus on that space. That said, though, we are a team
+of 3, so it would probably make sense for us to accomplish more than a smaller
+team of one or two people. Thus, I think it is still reasonable to have a goal
+of developing a more polished end-to-end system that someone could actually use
+for their personal task management. (I'm sure we'll clarify/adjust the exact scope
+of the project during conversations with Prof. Ben in the coming week or so.)
+
+Nick's point about focusing on todo.txt is one that we've decided to forgo, but
+not without much discussion and consideration. (See my comments on this in the
+project description section above.)
