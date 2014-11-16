@@ -21,6 +21,15 @@ you?**
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
 
+The following list is my work log for this list:
+
+* 0.75 hours
+  * Critiqued Nick & Christine's work
+* 1 hour
+  * Team meeting, worked on language design & implementation document
+* 3 hours
+  * Team meeting, completed language design & implementation document (amid significant discussion about the contents of that document)
+
 ## Post-critique summary
 
 ## Post-critique reflection
