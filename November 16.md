@@ -29,6 +29,8 @@ My work log for the week is below. I have only include time spent out of class.
   * Team meeting, worked on language design & implementation document
 * 3 hours
   * Team meeting, completed language design & implementation document (amid significant discussion about the contents of that document)
+* 2 hours
+  * Team meeting, had a Scala vs. Python discussion, played around with case classes in Python, completed first draft of simple IR
 
 ## Post-critique summary
 
