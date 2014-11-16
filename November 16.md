@@ -21,7 +21,7 @@ you?**
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
 
-The following list is my work log for this list:
+My work log for the week is below. I have only include time spent out of class.
 
 * 0.75 hours
   * Critiqued Nick & Christine's work
