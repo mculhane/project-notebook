@@ -13,8 +13,12 @@ I also spent a few hours working on a first pass at our semantics. The work I co
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+I think the most pressing issue is to confirm my general approach to the semantics. More specifically, we need to confirm that the approach I've taken is superior to an approach in which the functionality is built into the IR classes (which it likely is). Furthermore, we should probably confirm that our decision to develop the semantics in Python (in order to have easier interaction with Sublime) still makes sense over using Scala (and then having to do more work to get the Sublime plugin functional). Much of my thinking this week about how to structure the semantics was based on the Expression Problem we discussed in class.
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+Does the general structure to the semantics/IR seem appropriate? Do you have any suggestions regarding how we might simulate (or avoid using) pattern matching, or does our current approach look okay? Is the approach of checking types to simulate pattern matching so unpythonic and cringeworthy that we should avoid it?
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
@@ -36,4 +40,8 @@ My work log for the week is below. I have only include time spent out of class.
 
 ## Post-critique summary
 
+Christine had two main points in her critique. First, she emphasized that development of an intermediate representation should be a priority in the project. Second, she suggested that the Sublime Text plugin should be more than just a wrapper on top of our syntax. Rather, she thought that it would make sense for the plugin to provide a more GUI-like interface for adding, editing, and managing tasks.
+
 ## Post-critique reflection
+
+I think both of Christine's points are really useful. This week, we completed the intermediate representation, which will allow us to develop the syntax and the semantics of our language independently. (In fact, we prioritized a preliminary version of the IR during one of our team meetings so that we could easily split the remaining work.) I also agree that a GUI-like interface in the Sublime Text plugin would make for a cleaner user experience, so it would certainly be a nice addition. Those additional features are not absolutely central to our language, though, so I would guess that a more robust task entry/editing interface would be something that we would tackle as a stretch goal near the end of the project (if we get to it).
