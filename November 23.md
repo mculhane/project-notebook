@@ -21,6 +21,11 @@ you?**
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
 
+* 1 hour
+   * Critiqued Phil's work
+* 2.5 hours
+   * Team meeting, worked on semantics (and studied Scala quite a bit to keep everything idiomatic)
+
 ## Post-critique summary
 
 ## Post-critique reflection
