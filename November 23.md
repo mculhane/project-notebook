@@ -25,6 +25,8 @@ team, how did you share the labor?**
    * Critiqued Phil's work
 * 2.5 hours
    * Team meeting, worked on semantics (and studied Scala quite a bit to keep everything idiomatic)
+* 3 hours
+   * Team meeting, got parser mostly done, began writing tests
 
 ## Post-critique summary
 
