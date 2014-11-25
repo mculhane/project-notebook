@@ -21,6 +21,9 @@ you?**
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
 
+* 45 minutes
+  * Critiqued Ellen's project (still waiting for access to her GitHub repo, so I haven't posted the critique yet)
+
 ## Post-critique summary
 
 ## Post-critique reflection
